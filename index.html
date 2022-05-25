@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    .wrapper{
+      
+      width:1440px;
+      height: 1000px;
+      background-color: hsl(212, 45%, 89%);
+      background-image: url(images/favicon-32x32.png);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .wrapper .inner{
+      background-color:hsl(212, 45%, 89%);
+      width: 1000px;
+      height: 700px;
+
+      box-shadow:  2px 2px 1px 2px rgb(231, 235, 235);
+      border-radius: 2px;
+    
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .inner img{
+      width: 290px;
+      height: auto;
+    }
+    .wrap-image{
+      width: 330px;
+      background-color: white;
+      border-radius: 10px;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 15px;
+    }
+    .description{
+      width: 290px;
+      font-size: 15px;
+      font-family: Roboto;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <div class="inner">
+
+      <div class="wrap-image">
+        <img src="images/image-qr-code.png" alt="QR Code">
+        <div class="description">
+          <p style="font-weight: bold;"> Improve your front-end skills by building projects
+          </p>
+           <p >Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+          </p>         </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mehmet Gurcan</a>.
+  </div>
+</body>
+</html>
